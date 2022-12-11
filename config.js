@@ -21,14 +21,24 @@ var config = {
      * imgs 可以不填, 但是如果要填写的话必须遵循下面的格式
      * "对应上面的文字, 要完全一样" : "图片地址, 可以把图片放在imgs文件夹中"
      * 例如
-     * "心爱的小可爱": "./imgs/xiaokeai.jpg"
+     * "心爱的小可爱": "./imgs/01.jpg"
      *
      * 如果不要图片的话, 直接在每行开头写两个斜杠注释即可, 例如下面的 "今天是你的生日" 的图片就不会展示了:)
      * Tip: 图片最好用正方形or接近正方形, 看起来效果更好
      */
     imgs: {
-        "心爱的小可爱": "./imgs/xiaokeai.png",
-        // "今天是你的生日": "./imgs/birthday.jpg",
+        "亲爱的老婆氛": "./imgs/01.jpg",
+        "今天是我们的恋爱纪念日": "./imgs/03.jpg",
+        "这是我们在一起的": "./imgs/04.jpg",
+        "第九个纪念日了哦": "./imgs/12.jpg",
+        "从郑大的10号楼到3号楼": "./imgs/05.jpg",
+        "从北航的知春路到北理的魏公村": "./imgs/06.jpg",
+        "从苏州到北京": "./imgs/07.jpg",
+        "距离越远  心却越近": "./imgs/08.jpg",
+        "在这九年的时光里": "./imgs/09.jpg",
+        "春夏秋冬  日月更替": "./imgs/10.jpg",
+        "不变的是我们的爱~": "./imgs/11.jpg",
+        "LOVE YOU FORVER!": "./imgs/02.jpg",
     },
     // 按钮文字描述, 以下是默认的按钮文字，英文的，您可以改成你喜欢的文字
     desc: {
@@ -38,7 +48,7 @@ var config = {
         balloons_flying: "好像少点东西",
         cake_fadein: "蛋糕？",
         light_candle: "蜡烛？",
-        wish_message: "生日快乐",
+        wish_message: "纪念日快乐",
         story: "A MESSAGE FOR YOU",
     }
 };
